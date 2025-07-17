@@ -1,2 +1,2 @@
-print "archivo ejecutado en python"
-print "Here"
+print ("archivo ejecutado en python")
+print ("Here")
