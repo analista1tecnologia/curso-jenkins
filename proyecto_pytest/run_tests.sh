@@ -8,6 +8,8 @@ if [ ! -d "venv" ]; then
     python3 -m venv venv
 fi
 
+    python3 -m venv venv
+
 # Activar el entorno virtual correctamente
 if [ -f "venv/bin/activate" ]; then
     source venv/bin/activate
@@ -28,4 +30,3 @@ echo "* Ejecutando pruebas con pytest ..."
 venv/bin/python -m pytest tests/ --junitxml=reports/test-results.xml --html=reports/report.html --self-contained-html
 
 echo "* Pruebas finalizadas. Reportes en reports/"
-
