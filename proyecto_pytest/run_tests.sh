@@ -23,7 +23,7 @@ fi
 # Verificar si `pip` está instalado correctamente
 echo "* Instalando dependencias..."
 pip install --upgrade pip --break-system-packages
-pip install -r requirements.txt --break-system-packages
+pip install -r ../requirements.txt --break-system-packages
 
 mkdir -p reports
 
